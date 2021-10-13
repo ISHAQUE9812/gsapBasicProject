@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#back{
+    padding: 12px 20px ;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(209, 229, 230);
+}
+
+
+nav{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cntnt{
+    padding: 20px 30px;
+    display: flex;
+    width: 100%;
+    height:calc(100% - 25px);
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+}
+
+#left{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#left>h3{
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+#left>h3>span{
+    color: rgb(83, 154, 195);
+}
+
+#left>p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#left>button{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 100px;
+}
+
+
+
+#imgBlock{
+    position: relative;
+    width: 60%;
+    height: 99%;
+    box-shadow: -4px 15px 25px -2px rgba(83, 83, 83, 0.322);
+}
+.images{
+    position: absolute;
+    bottom: 45%;
+    height: 150px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+#one{
+    width: 250px;
+    height: 200px;
+    left: -120px;
+    background-image: url(https://images.unsplash.com/photo-1506468203959-a06c860af8f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    
+}
+
+#two{
+    height: 270px;
+    width: 250px;
+    right: 0;
+    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+}
+
+#three{
+    width: 250px;
+    height: 200px;
+    right: -290px;
+    background-image: url(https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+}
+
+#textDiv{
+    position: absolute;
+    bottom: 10%;
+    left: 11%;
+}
+
+#op{
+    opacity: .6;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+#p{
+    font-size: 15px;
+    margin-top: 20px;
+}
